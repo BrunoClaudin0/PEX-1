@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Rye&family=Special+Elite&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cordeiro Reserva</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="logo-placeholder.png" alt="Logo da Barbearia">
+    </div>
+    <nav class="nav">
+      <a href="#about">Sobre</a>
+      <a href="#services">Serviços</a>
+      <a href="#booking">Agendar</a>
+      <a href="#contact">Contato</a>
+    </nav>
+    <div class="welcome-text">
+      <h1>Bem-vindo à Cordeiro Barbearia</h1>
+    </div>
+  </header>
+
+  <section class="hero">
+    <p>Aqui, você encontra estilo, conforto e os melhores cuidados.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma barbearia moderna com tradição em oferecer serviços de alta qualidade.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Serviços</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Corte Masculino</h3>
+        <p>Estilo clássico ou moderno, você escolhe.</p>
+      </div>
+      <div class="service-item">
+        <h3>Barba</h3>
+        <p>Definição e cuidado para sua barba.</p>
+      </div>
+      <div class="service-item">
+        <h3>Pacote Completo</h3>
+        <p>Transformação completa com corte e barba.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Agendar</h2>
+    <form>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="service">Serviço:</label>
+      <select id="service" name="service" required>
+        <option value="cut">Corte Masculino</option>
+        <option value="beard">Barba</option>
+        <option value="package">Pacote Completo</option>
+      </select>
+      <label for="date">Data:</label>
+      <input type="date" id="date" name="date" required>
+      <button type="submit">Confirmar Reserva</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contato</h2>
+    <p>Endereço: Rua Carlos Câmara 1738, Jardim America, Fortaleza</p>
+    <p>Telefone: (85) 99116-3212 </p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Cordeiro Barbearia. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
